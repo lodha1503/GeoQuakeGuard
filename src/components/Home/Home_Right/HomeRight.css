@@ -1,0 +1,32 @@
+.home-right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 500px;
+    padding: 24px 48px;
+    >h1 {
+        font-size: 48px;
+    }
+}
+
+.second {
+    height: 28px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.third {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+
+}

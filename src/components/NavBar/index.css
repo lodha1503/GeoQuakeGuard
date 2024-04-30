@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+}
+
+.header {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+  height: 64px;
+  top: 0;
+  font-size: x-large;
+  justify-content: center;
+  background: #FFF;
+  flex-shrink: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+}
+
+.ak_rathi {
+  text-decoration: none;
+}
+
+.part2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.text {
+  font-size: 16px;
+  color: #010101;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  min-width: max-content;
+}
+
+
+
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six {
+  color: #4A4A4A;
+  display: inline-block;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+
+}
+
+
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover {
+  transform: scale(1.1);
+  font-weight: 500;
+
+}
+
+.hamburger {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .part2 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: -webkit-fill-available;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.295);
+    padding: 24px;
+  }
+
+  .part2.show {
+    display: flex;
+    background-color: #ffffffe7;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 101;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #4A4A4A;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+}

@@ -1,0 +1,133 @@
+.Maps-main {
+    width: 55%;
+    margin: auto;
+}
+
+.seismic-zone {
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid var(--l1, #EAEAEA);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    transition: transform 0.3s ease;
+}
+
+.map-photo {
+    height: 400px;
+    width: -webkit-fill-available;
+    max-width: 500px;
+    border-radius: 16px 0px 0px 16px;
+    background: url("../../assets/Images/SEISMIC.png"), lightgray 50% no-repeat;
+    background-size: cover;
+}
+
+.map-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.sub-heading {
+    color: #004494;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.map-text {
+    max-width: 500px;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.28px;
+}
+
+.wind-zone {
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1127px;
+    height: 341px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid var(--l1, #EAEAEA);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    transition: transform 0.3s ease;
+}
+
+.snow-zone {
+
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1127px;
+    height: 341px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid var(--l1, #EAEAEA);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    transition: transform 0.3s ease;
+}
+
+
+
+
+.seismic-zone:hover,
+.wind-zone:hover,
+.snow-zone:hover {
+    transform: scale(1.1);
+}
+
+.map1,
+.map2,
+.map3 {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .Maps-main {
+        width: 80%;
+    }  
+}
+
+@media (max-width: 640px) {
+    .Maps-main {
+        width: 80%;
+        margin: 30px;
+    }  
+    .seismic-zone {
+        padding: 5px;
+        flex-direction: column;
+    }
+    
+    .map-photo {
+        height: 200px;
+    }
+    .map-description {
+        padding: 10px;
+    }
+}
