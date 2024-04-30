@@ -1,7 +1,7 @@
 {
   "name": "amit_kumar_rathi",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@arcgis/core": "^4.28.10",
     "@testing-library/jest-dom": "^5.17.0",
