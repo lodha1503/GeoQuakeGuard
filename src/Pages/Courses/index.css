@@ -1,0 +1,133 @@
+.courses_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.courses-section {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.courses-intro {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.description1 {
+    width: fit-content;
+    max-width: 450px;
+    text-align-last: left; /* Aligns the last line of text to the left */
+    text-align: justify; /* Distribute text evenly within the container */
+
+}
+
+.description2 {
+    width: 40%;
+    min-width: 200px;
+    background-color: #DADADA;
+    text-align-last: left; /* Aligns the last line of text to the left */
+    text-align: justify; /* Distribute text evenly within the container */
+
+}
+
+.short-term-courses {
+    width: 60%;
+}
+
+
+.ug-courses,
+.pg-courses,
+.short-term-courses {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ug-courses-description,
+.pg-courses-description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align-last: left; /* Aligns the last line of text to the left */
+    text-align: justify; /* Distribute text evenly within the container */
+
+}
+
+
+.ug-courses-summary,
+.pg-courses-summary {
+    width: fit-content;
+    max-width: 450px;
+    height: 100%;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+
+}
+
+.stroke-courses {
+    width: 60%;
+    max-width: 600px;
+    margin: 20px;
+    stroke-width: 10px;
+    stroke: #0068df;
+}
+
+@media (max-width: 768px) {
+    .courses_main {
+        padding-top: 50px;
+    }
+
+    .stroke-courses {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .description {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .description2 {
+        min-height: 200px;
+        width: 100%;
+    }
+
+    .courses-section {
+        width: 80%;
+    }
+
+    .courses-intro {
+        width: 80%;
+    }
+
+    .ug-courses-description,
+    .pg-courses-description {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,35 @@
+{
+
+    "ugCourses" :{
+        "header": "Under-Graduate Level Courses [L-T-P]",
+        "courses":[
+            "Mechanics of Solid [3-0-0]",
+            "Reinforced Concrete Design [3-0-2]",
+            "Design of Steel Elements [3-0-0]",
+            "Dynamics of Structures [3-1-0]",
+            "Structural Analysis - III [3-0-0]",
+            "Transportation Engineering - II [3-0-0]",
+            "Strength of Materials Laboratory [0-0-2]",
+            "Fluid Mechanics Laboratory [0-0-2]",
+            "Construction Technology and Practices Laboratory [0-0-2]"
+        ]
+    },
+
+      
+    "pgCourses":{
+        "header" : "Post-Graduate Level Courses [L-T-P]",
+        "courses" : [
+            "Offshore Wind Energy Harvesting [3-0-0]",
+            "Wind Turbine and Field Design [3-0-2]",
+            "Wind and Earthquake Engineering [3-0-0]"
+        ]
+    },
+
+    "shortTermCourses":{
+        "header" : "Short-term Courses",
+        "courses" : [
+            "Structural Health Monitoring, A short-term online course under Management Development Program (MDP) on Smart Infrastructure and Sustainability organized by IITJ Technology Innovation and Start-up Center (IIT-TISC), Indian Institute of Technology Jodhpur, India, 03-07 January 2022."
+
+        ]
+    }
+}

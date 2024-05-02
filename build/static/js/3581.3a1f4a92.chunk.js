@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkamit_kumar_rathi=self.webpackChunkamit_kumar_rathi||[]).push([[3581],{83581:function(c,i,a){a.r(i),a.d(i,{default:function(){return m}});var m="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjIiPjxjaXJjbGUgY3g9IjEyOCIgY3k9IjEyOCIgcj0iMTIxIi8+PC9zdmc+"}}]);
+//# sourceMappingURL=3581.3a1f4a92.chunk.js.map

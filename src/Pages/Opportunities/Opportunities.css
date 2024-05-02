@@ -1,0 +1,62 @@
+.opportunities{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+.opportunities-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.opportunities-header{
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.sub-section-header {
+    height: 28px;
+    color: #004494;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.pos{
+    margin-left:10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 200% */
+    letter-spacing: 0.28px;
+}
+
+.note{
+    margin-left:10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 200% */
+    letter-spacing: 0.1px;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .opportunities {
+        width: 80%;
+    }
+}
