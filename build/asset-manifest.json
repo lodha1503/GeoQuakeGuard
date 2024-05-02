@@ -203,7 +203,11 @@
     "static/js/8885.f2c455bd.chunk.js": "/static/js/8885.f2c455bd.chunk.js",
     "static/js/5477.3c5fd3c7.chunk.js": "/static/js/5477.3c5fd3c7.chunk.js",
     "static/js/9626.4d87dcdf.chunk.js": "/static/js/9626.4d87dcdf.chunk.js",
+<<<<<<< HEAD
     "static/js/3940.66d20411.chunk.js": "/static/js/3940.66d20411.chunk.js",
+=======
+    "static/js/3940.887c80cd.chunk.js": "/static/js/3940.887c80cd.chunk.js",
+>>>>>>> b9bbad9c0562c3e666f9936cc44df93351401dc7
     "static/js/1562.509ec5be.chunk.js": "/static/js/1562.509ec5be.chunk.js",
     "static/js/294.b6b7471d.chunk.js": "/static/js/294.b6b7471d.chunk.js",
     "static/js/1843.b20d50ce.chunk.js": "/static/js/1843.b20d50ce.chunk.js",
@@ -274,6 +278,7 @@
     "static/js/2054.adb9f007.chunk.js": "/static/js/2054.adb9f007.chunk.js",
     "static/js/6876.b3e1a003.chunk.js": "/static/js/6876.b3e1a003.chunk.js",
     "static/js/172.475e58d9.chunk.js": "/static/js/172.475e58d9.chunk.js",
+<<<<<<< HEAD
     "static/media/Santosh_Bisoyi_PhD_April2022.jpg": "/static/media/Santosh_Bisoyi_PhD_April2022.83bf713e11537b832c82.jpg",
     "static/media/SEISMIC4.png": "/static/media/SEISMIC4.1a25f856095aa46a05c6.png",
     "static/media/Amar_Kumar_MTech_April2022.jpg": "/static/media/Amar_Kumar_MTech_April2022.ed01915350f4f4e62081.jpg",
@@ -282,6 +287,12 @@
     "index.html": "/index.html",
     "main.58a73589.css.map": "/static/css/main.58a73589.css.map",
     "main.f6dc2038.js.map": "/static/js/main.f6dc2038.js.map",
+=======
+    "static/media/SEISMIC.png": "/static/media/SEISMIC.8061c0ffde132cc03f75.png",
+    "index.html": "/index.html",
+    "main.778cdf25.css.map": "/static/css/main.778cdf25.css.map",
+    "main.49c1dd27.js.map": "/static/js/main.49c1dd27.js.map",
+>>>>>>> b9bbad9c0562c3e666f9936cc44df93351401dc7
     "519.158d8286.chunk.js.map": "/static/js/519.158d8286.chunk.js.map",
     "8023.ecf79d89.chunk.js.map": "/static/js/8023.ecf79d89.chunk.js.map",
     "4473.f474d2bf.chunk.js.map": "/static/js/4473.f474d2bf.chunk.js.map",
@@ -483,7 +494,11 @@
     "8885.f2c455bd.chunk.js.map": "/static/js/8885.f2c455bd.chunk.js.map",
     "5477.3c5fd3c7.chunk.js.map": "/static/js/5477.3c5fd3c7.chunk.js.map",
     "9626.4d87dcdf.chunk.js.map": "/static/js/9626.4d87dcdf.chunk.js.map",
+<<<<<<< HEAD
     "3940.66d20411.chunk.js.map": "/static/js/3940.66d20411.chunk.js.map",
+=======
+    "3940.887c80cd.chunk.js.map": "/static/js/3940.887c80cd.chunk.js.map",
+>>>>>>> b9bbad9c0562c3e666f9936cc44df93351401dc7
     "1562.509ec5be.chunk.js.map": "/static/js/1562.509ec5be.chunk.js.map",
     "3406.0221a3e9.chunk.js.map": "/static/js/3406.0221a3e9.chunk.js.map",
     "7808.4c422a31.chunk.js.map": "/static/js/7808.4c422a31.chunk.js.map",
@@ -552,7 +567,12 @@
     "172.475e58d9.chunk.js.map": "/static/js/172.475e58d9.chunk.js.map"
   },
   "entrypoints": [
+<<<<<<< HEAD
     "static/css/main.58a73589.css",
     "static/js/main.f6dc2038.js"
+=======
+    "static/css/main.778cdf25.css",
+    "static/js/main.49c1dd27.js"
+>>>>>>> b9bbad9c0562c3e666f9936cc44df93351401dc7
   ]
 }
