@@ -18,10 +18,6 @@
       
     "pgCourses":{
         "header" : "Post-Graduate Level Courses [L-T-P]",
-<<<<<<< HEAD
-=======
-        "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam et temporibus, cumque nobis tempore quos sapiente natus rerum consequatur est deserunt cupiditate sint dolores rem autem hic perferendis libero. Aliquid neque, corporis rerum quis ipsam quos, explicabo consectetur quo veniam accusantium alias, eaque cumque! Vel dicta id accusamus, earum animi aperiam consectetur odio ea explicabo dolore sunt recusandae cupiditate laborum vero, quidem dolorum, beatae qui saepe quia possimus temporibus! Hic quia quisquam quo odio. Tenetur porro enim dolorem dolor a! Enim .",
->>>>>>> b9bbad9c0562c3e666f9936cc44df93351401dc7
         "courses" : [
             "Offshore Wind Energy Harvesting [3-0-0]",
             "Wind Turbine and Field Design [3-0-2]",
@@ -31,10 +27,6 @@
 
     "shortTermCourses":{
         "header" : "Short-term Courses",
-<<<<<<< HEAD
-=======
-        "summary" : "",
->>>>>>> b9bbad9c0562c3e666f9936cc44df93351401dc7
         "courses" : [
             "Structural Health Monitoring, A short-term online course under Management Development Program (MDP) on Smart Infrastructure and Sustainability organized by IITJ Technology Innovation and Start-up Center (IIT-TISC), Indian Institute of Technology Jodhpur, India, 03-07 January 2022."
 
